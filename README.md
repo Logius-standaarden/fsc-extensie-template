@@ -1,26 +1,28 @@
-# Logboek Dataverwerkingen
+# Federatieve service connectiviteit
 
 ## Deze standaard is in ontwikkeling 
 
-- De laatste versie van de standaard online lezen - [ReSpec publicatie](https://logius-standaarden.github.io/logboek-dataverwerkingen/)
-- Meedoen aan de discussie en ontwikkeling kan via - [Mattermost Digilab omgeving](https://digilab.overheid.nl/chat/verwerkingenlogging)
-- vragen kunnen worden gemailed aan api@logius.nl of als issue worden ingebracht [via deze link](https://github.com/Logius-standaarden/logboek-dataverwerkingen/issues)
+- De laatste versie van de standaard online lezen - [ReSpec publicatie](https://logius-standaarden.github.io/fsc-core/)
+- Meedoen aan de discussie en ontwikkeling kan via - [Mattermost Digilab omgeving](https://digilab.overheid.nl/chat/digilab/channels/fsc)
+- vragen kunnen worden gemailed aan api@logius.nl of als issue worden ingebracht [via deze link](https://github.com/Logius-standaarden/fsc-core/issues/new/choose)
 
 ## Inleiding
 
-De overheid wil voor burgers en bedrijven zo transparant mogelijk zijn in de omgang met hun data. Daarom is het bij de informatieverwerking in datasets belangrijk om voor elke mutatie of raadpleging vast te leggen wie deze actie wanneer uitvoert, en waarom. Deze herleidbaarheid speelt zowel een rol in het kader van de wetgeving op het gebied van privacy als ook het streven naar openheid en transparantie bij de overheid. Voor een optimale samenwerking over organisaties en bronnen heen is voor deze logging een algemene standaard nodig.
+De overheid staat de komende jaren aan de lat voor de aanpak van grote, complexe maatschappelijke opgaven. Beleidsvorming en besluitvorming in dergelijke complexe dossiers zijn veelal domein- en ketenoverstijgend. Dat vraagt dus om informatievoorziening die in kwalitatief hoogwaardige en betrouwbare data voorziet – niet in de laatste plaats omdat beleid en besluiten rechtstreekse impact hebben op inwoners en bedrijven. Ondersteunend hieraan wil de overheid gegevens zoveel mogelijk enkelvoudig vastleggen en meervoudig gebruiken. Dit stelt (overheids)organisaties de komende jaren voor de opgave om de exponentieel groeiende gegevensuitwisseling te faciliteren, onder de voorwaarden dat de veiligheid, betrouwbaarheid en privacy geborgd zijn.
 
-Het project Logboek Dataverwerkingen (voorheen: Verwerkingenlogging) maakt deel uit van het [actieplan Data bij de Bron](https://www.digitaleoverheid.nl/data-bij-de-bron/) en onderzoekt met Digilab in samenwerking met diverse overheidspartijen (ministeries, uitvoeringsorganisaties en gemeentes) of we op basis van de tot nu toe opgedane inzichten een overheidsbrede standaard kunnen vaststellen. Na het succesvol beproeven van de standaard wordt deze voorgesteld voor opname in de [‘Pas toe of leg uit’-lijst van het Forum voor Standaardisatie](https://forumstandaardisatie.nl/pas-toe-leg-uit-beleid).
+Gegevensuitwisseling is een diverse en complexe uitdaging. Het aantal koppelingen naar datasets dat gelegd moet worden zal de komende jaren exponentieel stijgen. De technische koppelingen vereisen vaak technische expertise, de realisatie ervan heeft vaak een lange doorlooptijd, de beheerslast is door maatwerk hoog en hierdoor kunnen de kosten flink oplopen. Tegelijkertijd staat de overheid onder toenemende druk om efficiënter te werken. Dit staat op gespannen voet met elkaar.
 
-> bron: https://digilab.overheid.nl/projecten/logboek-dataverwerkingen/
+De bestaande wijze van gegevensuitwisseling kent een aantal omissies, die op gespannen voet staan met de snel groeiende noodzaak voor grootschalige, veilige en betrouwbare gegevensuitwisseling. Een voorbeeld van zo’n omissie is transparantie over wie welke data opgevraagd heeft. Het komt op dit moment veel voor dat onderaannemers van afnemers gebruik maken van koppelingen onder de identiteit van de opdrachtgever met een gebrek aan transparantie ten gevolg. Een ander voorbeeld is het ontbreken van toezicht op de geldigheidsduur van de toegang en ook het gebrek aan herleidbaarheid. De beheersbaarheid van koppelingen staat meer en meer onder druk doordat dit nu handmatig werk is en juist het aantal koppelingen de komende jaren exponentiel zal groeien onder invloed van principes als ‘data bij de bron’ (geen lokale kopieën meer maar via nieuwe externe koppelingen de bron benaderen) en ‘data minimalisatie’ (geen bestandsuitwisseling meer kleinere specifieke vragen via API’s). Deze groei gaat niet over een groei van honderden API’s maar over duizenden.
+
+Om de groei binnen de huidige aanpak te kunnen faciliteren, zijn grote investeringen nodig, zonder dat daarbij daadwerkelijk verbeteringen worden gerealiseerd in de veiligheid, betrouwbaarheid en beheersbaarheid van gegevensuitwisseling.
+
+> bron: https://fsc-standaard.nl/
 
 ## Doel
 
-De standaard Logboek Dataverwerkingen beschrijft een manier om technisch interoperabele functionaliteit voor het loggen van dataverwerkingen te implementeren, door voor de volgende functionaliteit de interface en het gedrag voor te schrijven:
+De FSC-standaard uniformeert de wijze waarop koppelingen worden gerealiseerd, waardoor deze beheersbaar, veilig en betrouwbaar zijn. Het maakt ze eenvoudiger beheersbaar, doordat ze eenvoudig en snel kunnen worden gerealiseerd, gewijzigd, gecontroleerd of opgeheven. Daarnaast worden aanvullende waarborgen gerealiseerd voor de veiligheid en betrouwbaarheid van data. Denk aan het automatiseren van controles op basis van beleids- en toegangsregels, gebaseerd op transparantie zodat ook achteraf helder is waarom bepaalde gegevens gebruikt zijn en bepaalde beslissingen genomen zijn. Zo speelt de FSC-standaard een cruciale rol in het realiseren van een betaalbare, beheersbare, veilige en betrouwbare gegevensuitwisseling in de komende jaren.
 
-- het wegschrijven van logs van dataverwerkingen
-- het aan elkaar relateren van logs van dataverwerkingen
-- het aan elkaar relateren van dataverwerkingen over de grenzen van systemen
+> bron: https://fsc-standaard.nl/
 
 ## Verwijzingen
 
