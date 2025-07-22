@@ -5,9 +5,9 @@ let respecConfig = {
   license: "cc-by",
   specStatus: "WV",
   specType: "PR",
-  pubDomain: "logboek",
-  shortName: "logboek-extensie-template",
-  publishDate: "2025-03-31",
+  pubDomain: "fsc",
+  shortName: "fsc-extensie-template",
+  publishDate: "2025-07-22",
   publishVersion: "0.9",
   prevVersion: [],
 
@@ -19,7 +19,7 @@ let respecConfig = {
         companyURL: "https://logius.nl",
       },
       {
-        name: "Tim van der Lippe",
+        name: "Stas Mironov",
         company: "Logius",
         companyURL: "https://logius.nl",
       },
@@ -32,12 +32,12 @@ let respecConfig = {
         companyURL: "https://logius.nl",
       },
       {
-        name: "Tim van der Lippe",
+        name: "Stas Mironov",
         company: "Logius",
         companyURL: "https://logius.nl",
       },
     ],
-  github: "https://github.com/Logius-standaarden/logboek-extensie-template",
+  github: "https://github.com/Logius-standaarden/fsc-extensie-template",
 
 
   // Create PDF and link to file in header (optional):
