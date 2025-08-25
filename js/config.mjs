@@ -11,6 +11,7 @@ loadRespecWithConfiguration({
   shortName: "fsc-extensie-template",
   publishDate: "2025-07-22",
   publishVersion: "0.9",
+  latestVersion: "https://logius-standaarden.github.io/fsc-extensie-template/",
   prevVersion: [],
 
   editors:
