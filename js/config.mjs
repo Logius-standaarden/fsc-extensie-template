@@ -19,12 +19,12 @@ loadRespecWithConfiguration({
       {
         name: "Nil Barua",
         company: "Logius",
-        companyURL: "https://logius.nl",
+        companyURL: "https://www.logius.nl",
       },
       {
         name: "Stas Mironov",
         company: "Logius",
-        companyURL: "https://logius.nl",
+        companyURL: "https://www.logius.nl",
       },
     ],
   authors:
@@ -32,12 +32,12 @@ loadRespecWithConfiguration({
       {
         name: "Nil Barua",
         company: "Logius",
-        companyURL: "https://logius.nl",
+        companyURL: "https://www.logius.nl",
       },
       {
         name: "Stas Mironov",
         company: "Logius",
-        companyURL: "https://logius.nl",
+        companyURL: "https://www.logius.nl",
       },
     ],
   github: "https://github.com/Logius-standaarden/fsc-extensie-template",
